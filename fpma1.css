@@ -46,7 +46,15 @@ div a{
     min-height: 30px;
     display: block;
 }
-
+  /*image et contenu*/
+.image1{
+    background-image: url("img/bg1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+}
 .siden {
     display: flex;
     flex-direction: column;
@@ -61,15 +69,6 @@ div a{
     overflow-x: hidden;
     padding-top: 20px;
   }
-  
-.image1{
-    background-image: url("img/bg1.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0;
-}
 .title{
     text-shadow: 5px 5px 10px rgb(5, 69, 90);
 }
@@ -85,5 +84,8 @@ div a{
 /*Page footer*/
 .footer{
     height: 100%;
-    background-color: rgba(5, 4, 63, 0.753);
+    background-color: rgba(65, 124, 235, 0.87);
+}
+.footerGroup{
+    padding: 100px;
 }
