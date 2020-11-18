@@ -8,16 +8,52 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>eglise FPM OF</title>
     </head>
     <body>
         <div class="container-fluid header"> 
-            <div class="topnav d-flex justify-content-around align-items-center">
-                <a class="active" href="#home">Section</a>
-                <a href="#news">Historiques</a>
-                <a href="#contact">Vie de l église</a>
-                <a href="#about">nous contacter</a>
-            </div>
+            <!--Page principale-->
+            <div class="row topnav d-flex justify-content-around align-items-center">
+                <div class="col dropdown">
+                    <button class="dropbtn">Section 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content text-center">
+                      <a href="#">Ecole du dimanche</a>
+                      <a href="#">jeunes chrétiens</a>
+                      <a href="#">Femmes chrétiennes</a>
+                      <a href="#">Hommes chrétiens</a>
+                      <a href="#">Chorale</a>
+                    </div>
+                  </div> 
+                <div class="col">
+                    <a href="#news">Historiques</a>
+                </div>
+                <div class="col dropdown">
+                    <button class="dropbtn">Vie de l'église 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content text-center">
+                      <a href="#">Conf-Call bibilique</a>
+                      <a href="#">Calendrier</a>
+                      <a href="#">Programme du dimanche</a>
+                    </div>
+                </div> 
+                <div class="col">
+                    <a href="#about">nous contacter</a>
+                </div>
+                <form class="col-4 form-inline">
+                    <div class="row">
+                        <div class="col">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </div>
+                    </div>
+                  </form>
+                </div>
             <div class="image1 p-4 d-flex flex-column justify-content-around">
                 
                 <div class="title text-center text-white">
@@ -27,9 +63,21 @@
                 <div class="logo text-center">
                     <img src="img/Logo Eglise.jpg" width="200" height="250">
                 </div>
+                <div class="siden">
+                    <a href="#"><img src="img/fb.png"></a>
+                
+                    <a href="#"><img src="img/Insta.png"></a>
+                  </div>
+                  
             </div>
+
+            <!--Deuxieme page-->
             <div class="image2"></div>
 
+            <!--footer-->
+            <div class="footer">
+
+            </div>
         </div>
          
     </body>

@@ -1,14 +1,67 @@
 body, html{
+    font-family: "Lato", sans-serif;
     height: 100%;
 }
+/* Page principale*/
 .header{
     height: 100%;
 }
+    /*Top Barre de navigation*/
 .topnav{
-    height: 100px;
+    position: fixed;
+    top: 0;
+    height: 60px;
     width: 100%;
     background-color: beige;
+    z-index: 2;
 }
+div a{
+    color:black;
+}
+ div a:hover{
+    color: #000;
+    text-decoration: none;
+}
+        /*bouton drop*/
+.dropdown .dropbtn{
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    top: 40px;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+            /*.dropdown hover: fait apparaitre le dropdown*/
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+            /*Fait apparaitre que les dropdown (sans le btn)*/
+  .dropdown-content a{
+    min-height: 30px;
+    display: block;
+}
+
+.siden {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    right: 0;
+    opacity: 0,5;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
 .image1{
     background-image: url("img/bg1.jpg");
     height: 100%;
@@ -17,15 +70,10 @@ body, html{
     background-size: cover;
     border: 0;
 }
-div a{
-    color:black;
-}
-div a:hover{
-    text-decoration: none;
-}
 .title{
     text-shadow: 5px 5px 10px rgb(5, 69, 90);
 }
+/*Deuxieme page*/
 .image2{
     background-image: url('img/montagne.jpg');
     height: 100%;
@@ -33,4 +81,9 @@ div a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     border: 0;
+}
+/*Page footer*/
+.footer{
+    height: 100%;
+    background-color: rgba(5, 4, 63, 0.753);
 }
