@@ -8,44 +8,21 @@ body, html{
 }
     /*Top Barre de navigation*/
 .topnav{
+    display: block;
     position: fixed;
-    top: 0;
-    height: 60px;
+    background: rgb(3, 4, 70); 
+    background: rgba(3,4,70,0.8);
     width: 100%;
-    background-color: beige;
-    z-index: 2;
+    height: 80px;
 }
-div a{
-    color:black;
+div a {
+    color: whitesmoke;
 }
- div a:hover{
-    color: #000;
+div a:hover{
+    color: whitesmoke;
     text-decoration: none;
 }
-        /*bouton drop*/
-.dropdown .dropbtn{
-    border: none;
-    outline: none;
-    font-family: inherit;
-}
-.dropdown-content{
-    position: absolute;
-    display: none;
-    top: 40px;
-    background-color: #f9f9f9;
-    min-width: 250px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-            /*.dropdown hover: fait apparaitre le dropdown*/
-.dropdown:hover .dropdown-content {
-    display: block;
-  }
-            /*Fait apparaitre que les dropdown (sans le btn)*/
-  .dropdown-content a{
-    min-height: 30px;
-    display: block;
-}
+
   /*image et contenu*/
 .image1{
     background-image: url("img/bg1.jpg");
@@ -61,25 +38,55 @@ div a{
     justify-content: space-around;
     height: 100%;
     width: 100px;
-    position: fixed;
-    z-index: 1;
     top: 100px;
     right: 0;
-    opacity: 0,5;
-    overflow-x: hidden;
-    padding-top: 20px;
+    z-index: 1;
+    position: fixed;
+   
   }
 .title{
     text-shadow: 5px 5px 10px rgb(5, 69, 90);
 }
 /*Deuxieme page*/
 .image2{
-    background-image: url('img/montagne.jpg');
-    height: 100%;
+    background-image: url('img/bible1.jpeg');
+    height: 120%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border: 0;
+}
+
+.annonce{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.annonce_items{
+    transition: all 1s;
+}
+.annonce_items:hover{
+    text-shadow: 2px 2px 5px black;
+    transform: scale(1.5);
+}
+
+.periscope{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 30px;
+    transition: all 1s;
+}
+.periscope:hover{
+    box-shadow: 2px 2px 5px black;
+    transform: scale(1.1);
+    background-color: whitesmoke;
+}
+
+.parole{
+    padding-top: 100px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
 }
 /*Page footer*/
 .footer{
@@ -89,3 +96,4 @@ div a{
 .footerGroup{
     padding: 100px;
 }
+
