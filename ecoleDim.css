@@ -1,4 +1,12 @@
 /*Page Ecole du dimanche*/
-.image{
+.image3{
     height: 150%;
+}
+.foto{
+    z-index: -1;
+}
+
+/*deuxieme Page*/
+.image4{
+    height: 50%;
 }
