@@ -1,6 +1,6 @@
 /*Page Ecole du dimanche*/
 .image3{
-    height: 150%;
+    height: 180%;
 }
 .foto{
     z-index: -1;
@@ -9,4 +9,16 @@
 /*deuxieme Page*/
 .image4{
     height: 50%;
+}
+.sary{
+    float: left;
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+}
+b{
+    color:red;
+}
+.edito{
+    padding-top: 150px;
 }

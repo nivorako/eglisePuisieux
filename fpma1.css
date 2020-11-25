@@ -90,11 +90,25 @@ div a:hover{
 }
 
 .parole{
+    color: black;
     padding-top: 100px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
 }
+
+a h2{
+    width: 300px;
+    border-radius: 5px;
+    color: black;
+    transition: all 1s;
+}
+a h2:hover{
+    
+    text-shadow: 2px 2px 5px black;
+    background-color: whitesmoke;
+}
+
 /*Page footer*/
 .footer{
     height: 100%;
@@ -103,4 +117,3 @@ div a:hover{
 .footerGroup{
     padding: 100px;
 }
-
